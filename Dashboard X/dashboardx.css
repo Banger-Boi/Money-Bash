@@ -118,6 +118,9 @@ ul a:hover{
     margin-left: 0.5rem;
 }
 
+ul span{
+    color: rgb(130, 245, 166);
+}
 #close{
     gap: 1px;
 }
@@ -140,9 +143,7 @@ ul a:hover{
     padding-left: 15px;
 }
 
-.selected span{
-    color: #e1f5e1;
-}
+
  
 .profile-svg{
     padding-left: 450px;
@@ -233,4 +234,22 @@ ul a:hover{
     margin-left: 200px;
 
    
+}
+
+
+
+
+
+
+@media(max-width: 500px){
+    .nav{
+        position: static;
+    }
+     
+    .grid-container{
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        margin-right: 500px;
+        margin-top: 500px;
+    }
 }

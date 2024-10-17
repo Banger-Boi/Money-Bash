@@ -1,18 +1,7 @@
-document.querySelector('.menu').addEventListener('click', ()=> {
+window.onload = function() {
     showSidebar()
-    backgroundBlur()
-});
-
-document.querySelector('.close').addEventListener('click', ()=>{
-    hideSidebar()
-});
-
-
-function showSidebar(){
-    const nav = document.querySelector('.nav')
-    nav.style.display = 'flex'
-
 }
+
 
 function hideSidebar(){
     const nav = document.querySelector('.nav')
@@ -20,8 +9,43 @@ function hideSidebar(){
 
 }
 
-function backgroundBlur(){
-    const gridcontainer = document.querySelector('.gridcontainer')
-    gridcontainer.style.filter ='blur(8px)'
-   
+function showSidebar(){
+    const nav = document.querySelector('.nav')
+    nav.style.display = 'flex'
+
 }
+
+
+function getSelected () {
+    document.querySelector('ul li').classList.add('.selected')
+}
+
+
+
+
+document.querySelector('.close-x').addEventListener('click', ()=>{
+    hideSidebar()
+});
+
+
+document.querySelector('.menu').addEventListener('click', ()=> {
+    showSidebar()
+    console.log('gay')
+
+});
+
+
+
+
+
+
+
+
+document.querySelectorAll('.to-be-selected').forEach(element => {
+    element.addEventListener('click', () => {
+        element.classList.add('selected');
+        console.log('agaey');
+    });
+});
+
+ 
