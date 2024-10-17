@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-image: url(backgrnd.jpg);
+
+    
+    
+}
+
+.container{
+   
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+
+}
+
+fieldset{
+ margin: 2em; 
+ padding: 1em 2em;
+ border: solid 0.5px #254336;
+ height: 650px;
+ border-radius: 20px;
+ min-width: 450x;
+ z-index: 10;
+background: #036C81;
+opacity: 0.8;
+ 
+ 
+}
+
+label{
+    display: block;
+    margin-top: 20px;
+    padding-left: 2px;
+    opacity: 1;
+}
+
+input{
+    background-color: #a0b7c6;
+    width: 350px;
+   padding: 20px;
+   border: solid 1px greenyellow;
+   border-radius: 10px;
+}
+
+#code{
+    font-size: small;
+    margin-top: 5px;
+    text-align: center;
+    margin-left: -280px;
+    color: rgb(12, 2, 50);
+}
+
+
+#submit{
+    background-color:  rgb(214, 229, 250);
+    width: 400px;
+    
+    margin-top: 40px;
+    font-size: small;
+}
+
+#submit:hover{
+    background-color:aquamarine;
+}
+
+#Or-Login{
+    font-size: small;
+    margin-top: 5px;
+    text-align: center;
+    color: rgb(12, 2, 50);
+
+}
