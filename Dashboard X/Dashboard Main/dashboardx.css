@@ -5,6 +5,8 @@ body{
     background-color:#F5F7F8;
     font-family: poppins,sans-serif;
     font-size: small;
+    /*background-image: url("./dashba.jpg");*/
+    background-size: cover;
     
 }
 
@@ -252,9 +254,17 @@ ul span{
     .grid-container{
         grid-template-columns: auto;
         grid-template-rows: auto;
-        margin-right: 500px;
-        margin-top: 500px;
+      
         height: 100vh;
       
+    }
+}
+
+@media(max-width: 1024px){
+  
+    .grid-container{
+       margin-left:  300px; ;
+        height: 100vh;
+        
     }
 }
