@@ -8,8 +8,9 @@
 body{
     background-color: #F5F7F8; 
     min-height: 100vh;
-    font-family:d poppins,sans-serif;
+    font-family: d poppins,sans-serif;
     font-size:smaller;
+    
 
 }
 
@@ -315,9 +316,10 @@ resize{
 
 .Second-part-text:hover{
     box-shadow: 3px 3px 5px rgb(122, 121, 121) ;
-    
+    border-radius: 3%;
     padding-top: 30px;
     padding-right: 10px;
+    transition: all 400ms ease;
 }
 
 .mission{

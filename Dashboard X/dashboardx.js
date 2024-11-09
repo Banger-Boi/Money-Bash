@@ -1,5 +1,5 @@
 window.onload = function() {
-    showSidebar()
+    hideSidebar()
 }
 
 
@@ -39,13 +39,12 @@ document.querySelector('.menu').addEventListener('click', ()=> {
 
 
 
-
-
 document.querySelectorAll('.to-be-selected').forEach(element => {
     element.addEventListener('click', () => {
+        // Remove 'selected' class from all elements
+        document.querySelectorAll('.to-be-selected').forEach(element => element.classList.remove('selected'));
+        
+        // Add 'selected' class to the clicked element
         element.classList.add('selected');
-        console.log('agaey');
     });
 });
-
- 

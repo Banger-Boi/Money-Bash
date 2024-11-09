@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+:root {
+    --background-color:#F5F7F8;
+    --svgColor: rgb(130, 245, 166)
+  }
+  
+
+body{
+    background-color:var(--background-color);
+    font-family: poppins,sans-serif;
+    font-size: small;
+    /*background-image: url("../Images/hi.avif")*/
+    background-size: cover;
+    
+}
+
+.top{
+    margin-top: 2rem;
+}
+
+
+.logo-name{
+    font-weight: 900;
+    line-height: 0.8rem;
+    font-size:medium;
+    padding-top: -50px;
+
+
+}
+
+
+.user-info-container{
+    border-width: 1.2px;
+    border-top: none;
+   /* width: 500px;
+    height: 100px;*/
+    width: 50vw;
+    padding: 20px;
+    padding-left: 50px;
+    border-style: solid;
+    list-style: none;
+    margin-left: 300px;
+    font-size: small;
+    border-color: #e1f5e1;
+    border-radius: 30px;
+        
+}
+.user-info{
+    line-height: 0.3rem;
+    margin-top: -10px;
+}
+
+
+ul li{
+    width: 100%;
+    text-decoration: none;
+    list-style: none;
+    gap: 0.1em;
+    font-size: small;
+    line-height: 0rem;
+
+}
+
+a span{
+    color: black;
+}
+
+
+.profile-svg{
+    padding-left: 550px;
+    line-height: 0px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+   
+}
+
+.profile-svg:hover{
+    margin-left: 10px;
+    transition: all 500ms ease;
+}
+
+#img{
+    width: 100px;
+    height: 100px;
+    
+}
+
+.dashboard-image{
+ 
+    align-content: center;
+    margin-left: 46%;
+    margin-top: 8%;
+}
+
+.user-info-ii{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.user-info-ii p{
+    display: block;
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
+}
