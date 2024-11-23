@@ -245,6 +245,25 @@ ul span{
 }
 
 
+.earnings-slider{
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+    height: 100vh;
+}
+
+.slide{
+    flex: 0 0 100%;
+    scroll-snap-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    color: white;
+    height: 100%;
+}
 
 
 
